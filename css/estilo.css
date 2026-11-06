@@ -1,6 +1,17 @@
 
 /* CONFIGURAÇÕES GERAIS */
 
+#pInicio{
+    font-size: 20px;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+#h2Inicio{
+    font-size: 30px;
+    justify-content: space-between;
+    padding: 0 30px;
+}
 * {
     margin: 0;
     padding: 0;
@@ -275,4 +286,42 @@ nav a:hover {
     color: darksalmon;
 }
 
-/* CORRIGINDO */
+.pagina-empresa.playstation section img.imagem-jogos {
+    width: 1;
+    height: 300px;
+    object-fit: cover;
+    display: inline-block;
+    vertical-align: top;
+    margin: 25px 0 0;
+    transform: none;
+}
+
+.pagina-empresa.nintendo section img.imagem-jogos {
+    width: 1;
+    height: 400px;
+    object-fit: cover;
+    display: inline-block;
+    vertical-align: top;
+    margin: 25px 0 0;
+    transform: none;
+}
+
+.pagina-empresa.xbox section img.imagem-jogos {
+    width: 1;
+    height: 400px;
+    object-fit: cover;
+    display: inline-block;
+    vertical-align: top;
+    margin: 25px 0 0;
+    transform: none;
+}
+
+.pagina-empresa.valve section img.imagem-jogos {
+    width: 1;
+    height: 400px;
+    object-fit: cover;
+    display: inline-block;
+    vertical-align: top;
+    margin: 25px 0 0;
+    transform: none;
+}
